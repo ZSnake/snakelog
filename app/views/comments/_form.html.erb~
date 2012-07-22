@@ -1,0 +1,5 @@
+<%= simple_form_for [@commentable, @comment] do |f| %>
+  <%= f.author %>
+  <%= f.content %>
+  <%= f.submit %>
+<%end%>

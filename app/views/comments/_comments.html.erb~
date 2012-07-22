@@ -1,0 +1,7 @@
+
+<%@comments.each do |c| %>
+  <%= simple_format comment.content%>
+  <b>Author: </b>
+  <%= simple_format comment.author %>
+<%end%>
+<br />
